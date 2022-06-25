@@ -1,0 +1,3 @@
+[submodule "themes/cole"]
+	path = themes/cole
+	url = https://github.com/sfengyuan/hugo-theme-cole.git

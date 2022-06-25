@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2022 17:08:26 +0200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>STEHT ALAA BEI!</title>
+      <link>http://example.org/posts/1/</link>
+      <pubDate>Wed, 22 Jun 2022 17:08:26 +0200</pubDate>
+      
+      <guid>http://example.org/posts/1/</guid>
+      <description>Print, Modify, Put it up! Distribute::*
+This is a copyleft work, or does not adhere to copyright paradigm&amp;hellip;
+Feel free to do whatever you want with it, without attribution&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Stencil IT – Erstelle eine Graffiti-Schablone</title>
+      <link>http://example.org/posts/2/</link>
+      <pubDate>Wed, 22 Jun 2022 16:12:32 +0200</pubDate>
+      
+      <guid>http://example.org/posts/2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
