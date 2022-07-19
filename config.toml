@@ -1,7 +1,7 @@
 baseURL = 'https://the.ghost.of.spring-pa.st/'
 languageCode = 'en-us'
 title = 'The ghost of spring past'
-theme = 'hugo-product-launch'
+theme = 'cole'
 autoCover = true
 
 defaultContentLanguage = 'en'
@@ -18,7 +18,8 @@ defaultContentLanguage = 'en'
   [languages.de]
     title = 'Der Geist des vergangenen Frühlings'
     weight = 2
-#    [languages.fr.params]
+    [languages.de.params]
+       footer ="Sie haben ein neues oder abgeleitetes Werk erstellt? Haben Sie es bereits an Ihre eigene Plattform gesendet? ob Sie Solidarität mit den Geschädigten ausdrücken oder Ihre Kunst und Politik als öffentliches Statement, als künstlerische Form der Petition nutzen wollen; Sie können es an andere weitergeben, um es zu übersetzen, zu drucken, zu ändern und aufzuhängen!</br>ODER</br>Sie haben ein neues oder abgeleitetes Werk erstellt? und Sie möchten anonym bleiben? ob Sie Angst haben oder dies als im Einklang mit Ihrer Politik und Weltanschauung sehen. Laden Sie es irgendwo hoch, z. B. https://hostb.org</br>Senden Sie uns die Links oder Dateien an spring-pa.st@proton.me`</br>Haben Sie Änderungen an der Webseite? dann github.com/spring-past"
 #      linkedin = 'https://linkedin.com/fr/whoever'
 #      [languages.fr.params.navigation]
 #        help = 'Aide'
