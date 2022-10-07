@@ -1,0 +1,12 @@
+{{ if .Site.IsMultiLingual }}
+<nav>
+    {{ range .Site.Languages }}
+    {{ if eq . $.Site.Language }}
+    <b>{{ .LanguageName }}</b>
+      {{ end }}
+      {{ end }}
+        {{ range $.Translations }}
+        [<a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>]
+        {{ end }}
+</nav>
+{{ end }}
