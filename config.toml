@@ -7,19 +7,43 @@ autoCover = true
 defaultContentLanguage = 'en'
 [languages]
   [languages.ar]
-    languagedirection = 'rtl'
-    title = 'شبح الربيع اللي فات'
-    weight = 2
+  languageName = 'ع'
+  languagedirection = 'rtl'
+  title = 'شبح الربيع اللي فات'
+  weight = 2
+  
+  [languages.ar.params]
+    logoText = 'شبح الربيع اللي فات'
+    day="اليوم"
+    OnHungerStrike="من الإضراب عن الطعام"
+    
+  [languages.ar.menu]
+  
+  [[languages.ar.menu.main]]
+    identifier = 'the #FreeAlaa website'
+    name = 'صفحة #الحرية_لعلاء'
+    url = 'https://freealaa.net/'
+
+    [[languages.ar.menu.main]]
+    identifier = 'Egypt Prison Atlas'
+    name = 'أطلس سجون مصر'
+    url = 'https://egyptprisonatlas.org/ar'
+
   [languages.en]
+    languageName = 'EN'
+    contentDir = 'content/english'
     title = 'The ghost of spring past'
     weight = 1
 #    [languages.en.params]
 #      linkedin = 'https://linkedin.com/whoever'
   [languages.de]
+    languageName = 'DE'
     title = 'Der Geist des vergangenen Frühlings'
     weight = 2
     [languages.de.params]
-       footer ="Sie haben ein neues oder abgeleitetes Werk erstellt? Haben Sie es bereits an Ihre eigene Plattform gesendet? ob Sie Solidarität mit den Geschädigten ausdrücken oder Ihre Kunst und Politik als öffentliches Statement, als künstlerische Form der Petition nutzen wollen; Sie können es an andere weitergeben, um es zu übersetzen, zu drucken, zu ändern und aufzuhängen!</br>ODER</br>Sie haben ein neues oder abgeleitetes Werk erstellt? und Sie möchten anonym bleiben? ob Sie Angst haben oder dies als im Einklang mit Ihrer Politik und Weltanschauung sehen. Laden Sie es irgendwo hoch, z. B. https://hostb.org</br>Senden Sie uns die Links oder Dateien an spring-pa.st@proton.me`</br>Haben Sie Änderungen an der Webseite? dann github.com/spring-past"
+      footer ='<span style="font-size:12px;">Sie haben ein neues oder abgeleitetes Werk erstellt? Haben Sie es bereits an Ihre eigene Plattform gesendet? ob Sie Solidarität mit den Geschädigten ausdrücken oder Ihre Kunst und Politik als öffentliches Statement, als künstlerische Form der Petition nutzen wollen; Sie können es an andere weitergeben, um es zu übersetzen, zu drucken, zu ändern und aufzuhängen!</br>ODER</br>Sie haben ein neues oder abgeleitetes Werk erstellt? und Sie möchten anonym bleiben? ob Sie Angst haben oder dies als im Einklang mit Ihrer Politik und Weltanschauung sehen. Laden Sie es irgendwo hoch, z. B. https://hostb.org</br>Senden Sie uns die Links oder Dateien an spring-pa.st@proton.me</br>Haben Sie Änderungen an der Webseite? dann github.com/spring-past</footer>'
+      day="Tag"
+      OnHungerStrike="im Hungerstrik"
 #      linkedin = 'https://linkedin.com/fr/whoever'
 #      [languages.fr.params.navigation]
 #        help = 'Aide'
@@ -39,5 +63,7 @@ defaultContentLanguage = 'en'
   weight = -110
 
 [params]
-    footer = '<span style="font-size:12px;">You have created a new or derived work? Dispatched it to your own platform already? whether you want to express solidarity with those wronged, or use your art and politcs as a public statment, an artistic form of petition; you can pass it on to others to translate, Print, Modify, and Put it up!</br>OR</br>You have created a new or derived work? and you want to stay anonymous? whether you are afraid, or you see this as inline with your politics and world views. upload it somewhere, such as <a href="https://hostb.org">https://hostb.org</a></br>Send us the links or files to <a href="mailto:spring-pa.st@proton.me">spring-pa.st@proton.me</a><br/>got changes webpage? then <a href="https://github.com/spring-past/webpage">github.com/spring-past</a></span>'
-#    Logo.logoText = 'The ghost of spring past'
+  footer = '<span style="font-size:12px;">You have created a new or derived work? Dispatched it to your own platform already? whether you want to express solidarity with those wronged, or use your art and politcs as a public statment, an artistic form of petition; you can pass it on to others to translate, Print, Modify, and Put it up!</br>OR</br>You have created a new or derived work? and you want to stay anonymous? whether you are afraid, or you see this as inline with your politics and world views. upload it somewhere, such as <a href="https://hostb.org">https://hostb.org</a></br>Send us the links or files to <a href="mailto:spring-pa.st@proton.me">spring-pa.st@proton.me</a><br/>got changes webpage? then <a href="https://github.com/spring-past/webpage">github.com/spring-past</a></span>'
+  logoText = 'The ghost of spring past'
+  day="Day"
+  OnHungerStrike="on Hungerstrike"
