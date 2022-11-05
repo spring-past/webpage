@@ -1,0 +1,5 @@
+# i18n/ar.yaml AR
+- id: day
+  translation: "اليوم"
+- id: onHungerStrike
+  translation: "من الإضراب عن الطعام"
