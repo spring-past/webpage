@@ -1,7 +1,7 @@
 baseURL = 'https://the.ghost.of.spring-pa.st/'
 languageCode = 'en-us'
 title = 'The ghost of spring past'
-theme = 'cole'
+theme = 'mediumish'
 autoCover = true
 
 defaultContentLanguage = 'en'
@@ -65,5 +65,16 @@ defaultContentLanguage = 'en'
 [params]
   footer = '<span style="font-size:12px;">You have created a new or derived work? Dispatched it to your own platform already? whether you want to express solidarity with those wronged, or use your art and politcs as a public statment, an artistic form of petition; you can pass it on to others to translate, Print, Modify, and Put it up!</br>OR</br>You have created a new or derived work? and you want to stay anonymous? whether you are afraid, or you see this as inline with your politics and world views. upload it somewhere, such as <a href="https://hostb.org">https://hostb.org</a></br>Send us the links or files to <a href="mailto:spring-pa.st@proton.me">spring-pa.st@proton.me</a><br/>got changes webpage? then <a href="https://github.com/spring-past/webpage">github.com/spring-past</a></span>'
   logoText = 'The ghost of spring past'
+  logo="logo.png"
   day="Day"
   OnHungerStrike="on Hungerstrike"
+  #customCSS= ["/styles.css"]
+
+  [params.index]
+  #picture = "/images/author.png"
+  #title = "John Doe"
+  #subtitle = "I'm a unique placeholder. Working here and there!"
+#  mdtext = '''
+#{{.Content}}
+#'''
+#ls  alertbar = true
