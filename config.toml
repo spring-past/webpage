@@ -27,7 +27,7 @@ defaultContentLanguage = 'en'
     [[languages.ar.menu.main]]
     identifier = 'Egypt Prison Atlas'
     name = 'أطلس سجون مصر'
-    url = 'https://egyptprisonatlas.org/ar'
+    url = 'https://egyptprisonatlas.org/'
 
   [languages.en]
     languageName = 'EN'
